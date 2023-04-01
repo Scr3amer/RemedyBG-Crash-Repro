@@ -10,6 +10,6 @@ https://github.com/mstorsjo/llvm-mingw/releases/tag/20230320
 I put a cmake with my build config.
 
 IMPORTANT NOTE:  
-You need to build both GLFW and this with PDB support. I enabled it here but not in the GLFW repo.  
-You need to add -g -gcodeview as a compiler flag  
-You need to add -Wl,--pdb= as a linker flag
+You need to build both GLFW and this with **PDB support**. I enabled it here but not in the GLFW repo.  
+You need to add **-g -gcodeview as a compiler flag**  
+You need to add **-Wl,--pdb= as a linker flag**
